@@ -18,6 +18,7 @@ export default defineConfig({
   },
   html: {
     template: 'public/index.html',
+    title: 'Waheim',
   },
   server: {
     port: 3000,
