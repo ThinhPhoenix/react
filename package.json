@@ -8,7 +8,8 @@
     "check": "biome check --write",
     "dev": "rsbuild dev --open",
     "format": "prettier --write .",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "env:up": "gh secret set -f .env"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.12",
